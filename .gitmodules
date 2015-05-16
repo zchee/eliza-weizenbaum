@@ -1,0 +1,3 @@
+[submodule "vendor/gems/ruboty-docker"]
+	path = vendor/gems/ruboty-docker
+	url = git@github.com:zchee/ruboty-docker.git
