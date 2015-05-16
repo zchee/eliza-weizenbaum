@@ -10,3 +10,6 @@
 
 # Environment variable
 .env
+
+# Subtree
+vendor/
