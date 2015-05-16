@@ -10,4 +10,4 @@
 
 # Environment variable
 .env
-
+.env.remote
