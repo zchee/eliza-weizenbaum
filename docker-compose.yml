@@ -4,4 +4,4 @@ app:
     - /var/run/docker.sock:/var/run/docker.sock
   external_links:
     - redis
-  env_file: .env
+  env_file: .env.remote
