@@ -23,5 +23,3 @@ gem 'ruboty-twitter_search'
 
 gem 'codeclimate-test-reporter', group: :test, require: nil
 gem 'rspec'
-
-gem 'awesome_print'
