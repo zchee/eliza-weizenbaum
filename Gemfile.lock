@@ -28,11 +28,14 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.9.1)
       faraday (>= 0.7.4, < 0.10)
+    fiddler-rb (0.1.2)
     http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
     json (1.8.2)
+    leveldb (0.1.9)
+      fiddler-rb (~> 0.1.1)
     mem (0.1.5)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
@@ -75,6 +78,9 @@ GEM
     ruboty-google_image (0.0.7)
       faraday
       faraday_middleware
+      ruboty
+    ruboty-leveldb (0.0.3)
+      leveldb
       ruboty
     ruboty-redis (0.0.5)
       redis
@@ -130,6 +136,7 @@ DEPENDENCIES
   ruboty-echo
   ruboty-github
   ruboty-google_image
+  ruboty-leveldb
   ruboty-redis
   ruboty-replace
   ruboty-ruby
