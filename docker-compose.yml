@@ -2,6 +2,5 @@ app:
   build: .
   volumes:
     - /var/run/docker.sock:/var/run/docker.sock
-  external_links:
-    - redis
-  env_file: .env.remote
+  env_file:
+    - .env.remote
